@@ -181,6 +181,12 @@ h5,
   font-size: 1.25rem;
 }
 
+.icone-container {
+ padding-top: 45px;
+ display: flex;
+ justify-content: center;
+}
+
 h6,
 .h6 {
   font-size: 1rem;
