@@ -187,6 +187,13 @@ h5,
  justify-content: center;
 }
 
+.icone img {
+ width: 35px;
+ height: 35px;
+ border-radius: 100%;
+ padding: 9px;
+}
+
 h6,
 .h6 {
   font-size: 1rem;
