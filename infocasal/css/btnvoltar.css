@@ -8,10 +8,10 @@
     letter-spacing: 1.3px;
     font-weight: 700;
     color: #313133;
-    background: #092b5a;
+    background: ##720505;
     border: none;
     border-radius: 1000px;
-    box-shadow: 12px 12px 24px #092b5a;
+    box-shadow: 12px 12px 24px #720505;
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
@@ -24,8 +24,8 @@
     border-radius: 1000px;
     min-width: calc(80px + 12px);
     min-height: calc(60px + 12px);
-    border: 6px solid #adc4e4;
-    box-shadow: 0 0 60px #092b5a;
+    border: 6px solid ##f57d7d;
+    box-shadow: 0 0 60px #720505;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,7 +35,7 @@
   }
   
   .buttonVoltar:hover, .buttonVoltar:focus {
-    color: #092b5a;
+    color: #720505;
     transform: translateY(-6px);
   }
   
@@ -47,7 +47,7 @@
     content: '';
     width: 5px; height: 5px;
     border-radius: 100%;
-    border: 6px solid #092b5a;
+    border: 6px solid #720505;
     position: absolute;
     z-index: -1;
     top: 50%;
