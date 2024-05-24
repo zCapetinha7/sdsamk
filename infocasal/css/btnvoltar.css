@@ -8,7 +8,7 @@
     letter-spacing: 1.3px;
     font-weight: 700;
     color: #313133;
-    background: ##720505;
+    background: #720505;
     border: none;
     border-radius: 1000px;
     box-shadow: 12px 12px 24px #720505;
@@ -24,7 +24,7 @@
     border-radius: 1000px;
     min-width: calc(80px + 12px);
     min-height: calc(60px + 12px);
-    border: 6px solid ##f57d7d;
+    border: 6px solid #720505;
     box-shadow: 0 0 60px #720505;
     position: absolute;
     top: 50%;
