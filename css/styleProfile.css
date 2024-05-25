@@ -12,13 +12,13 @@
 
 .gradient-custom-2 {
     /* fallback for old browsers */
-    background: #2a2c2c;
+ background-image: url(https://i.pinimg.com/236x/75/18/69/7518698b93761c4e41611f768c432bde.jpg);
     
     /* Chrome 10-25, Safari 5.1-6 */
-    background: #2a2c2c;
+ background-image: url(https://i.pinimg.com/236x/75/18/69/7518698b93761c4e41611f768c432bde.jpg);
     
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: #2a2c2c)
+ background-image: url(https://i.pinimg.com/236x/75/18/69/7518698b93761c4e41611f768c432bde.jpg);
     }
     .table{
         margin-top: 10%;
