@@ -18,49 +18,24 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
+            background-image: url('https://cdn.discordapp.com/attachments/1241956404080935075/1243262438728667177/IMG-20240521-WA0313.jpg?ex=66522760&is=6650d5e0&hm=f6162dbef797a7c21740ea09b02ea2e905a180a5aed2de828c0a821e80603c74&');
         }
-        
-        .custom-background {
-            padding: 20px;
-            text-align: center;
-        }
-        
-        .custom-background input {
-            width: 80%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        
-        .custom-background button {
-            padding: 10px 20px;
-            border: none;
-            background-color: #000;
-            color: #fff;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        
-        .custom-background button:hover {
-            background-color: #444;
-        }
-        
+
         header {
             text-align: center;
             margin: 55px 0;
         }
-        
+
         header img.partner {
             width: 150px;
             height: 150px;
             margin-top: 30px;
         }
-        
+
         header h1 {
             color: #000;
         }
-        
+
         nav a {
             margin: 5px;
             background-color: #000;
@@ -70,7 +45,7 @@
             color: #fff;
             text-decoration: none;
         }
-        
+
         nav a:hover {
             background-color: #444;
         }
@@ -78,9 +53,6 @@
 </head>
 
 <body>
-    <div class="custom-background">
-        <input type="text" id="background-link" placeholder="https://i.pinimg.com/236x/75/18/69/7518698b93761c4e41611f768c432bde.jpg">
-    </div>
     <header class="d-xl-flex flex-column justify-content-xl-center align-items-xl-center" style="height: 418px;text-align: center;margin: 55px;">
         <img class="rounded-circle partner" src="./profileImg/profile.png" width="150" height="150" style="margin-top: 30px;">
         <h1 class="d-xl-flex justify-content-xl-start" style="color: #000;">CASAL MK</h1>
@@ -88,13 +60,6 @@
             <a href="/infocasal/index.html" class="btn btn-primary shadow-none" type="button">Home</a>
         </nav>
     </header>
-
-    <script>
-        function setBackground() {
-            var link = document.getElementById('https://i.pinimg.com/236x/75/18/69/7518698b93761c4e41611f768c432bde.jpgk').value;
-            document.body.style.backgroundImage = 'url(' + link + ')';
-        }
-    </script>
 </body>
 
 </html>
